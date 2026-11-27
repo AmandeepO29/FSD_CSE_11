@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:placement_tracker_test;MODE=MySQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+
+app:
+  seed:
+    enabled: true
+    admin:
+      username: admin
+      email: admin@abesec.ac.in
+      password: Admin@123
+    student:
+      username: 2026cs001
+      email: aarav.sharma@abesec.ac.in
+      password: Student@123

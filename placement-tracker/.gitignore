@@ -1,0 +1,30 @@
+# Compiled output
+target/
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+application-local.yml
+application-secrets.yml
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Uploaded local test files
+uploads/

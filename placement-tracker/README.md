@@ -203,24 +203,25 @@ Frontend runs on `http://localhost:5173`.
 
 ---
 
-## Demo Credentials
+## Demo Credentials (All Available Roles)
 
-> Default seeded demo credentials (override in production via environment variables):
+> Default seeded demo credentials active on the live deployment (override in production via environment variables):
 
-- **Admin Account**
-  - **Username / Email**: `admin` / `admin@abesec.ac.in`
-  - **Password**: `Admin@123`
-- **Student Account**
-  - **Username / Email**: `2026cs001` / `aarav.sharma@abesec.ac.in`
-  - **Password**: `Student@123`
+| Role | Username | Email | Password | Access |
+| --- | --- | --- | --- | --- |
+| **ADMIN** | `admin` | `admin@abesec.ac.in` | `Admin@123` | Admin Dashboard, Analytics, Student/Company/Drive/Application Management |
+| **STUDENT** | `2026cs001` | `aarav.sharma@abesec.ac.in` | `Student@123` | Student Dashboard, Profile & PDF Resume Upload, Drive Eligibility, Applications |
+
+*(Additional student accounts can be created publicly via `/register`, which strictly assigns the `STUDENT` role.)*
 
 ---
 
 ## Deployment Links
 
 - **GitHub Repository**: [https://github.com/AmandeepO29/FSD_CSE_11](https://github.com/AmandeepO29/FSD_CSE_11) (`placement-tracker/` directory)
-- **Live Frontend (Render Static Site)**: `[Render Frontend URL Placeholder]`
-- **Live Backend (Render Web Service)**: `[Render Backend URL Placeholder]`
+- **Live Frontend (Render Static Site)**: [https://placement-tracker-web-kk4b.onrender.com](https://placement-tracker-web-kk4b.onrender.com)
+- **Live Backend API (Render Web Service)**: [https://placement-tracker-api-mrbo.onrender.com](https://placement-tracker-api-mrbo.onrender.com)
+- **Backend Health Check**: [https://placement-tracker-api-mrbo.onrender.com/api/health](https://placement-tracker-api-mrbo.onrender.com/api/health)
 
 ---
 
